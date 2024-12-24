@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page avec Images Cliquables</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-image: url('https://i.ibb.co/b2RkxNC/Design-sans-titre.png'); /* Image de fond */
+            background-size: cover;
+            background-position: center;
+        }
+        h1 {
+            color: #006400; /* Vert plus foncé */
+            font-size: 6em; /* Taille de police encore plus grande */
+            font-family: 'Brush Script MT', cursive; /* Utilise une police manuscrite standard */
+            font-weight: bold; /* Texte en gras */
+        }
+        .image-container {
+            display: inline-block;
+            margin: 20px;
+        }
+        .image-container img {
+            width: 90%;
+            max-width: 600px;
+            height: auto;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<h1>Joyeux Noël</h1>
+
+<div class="image-container">
+    <a href="https://www.bdxc.fr/agenda/evenement/167044/spectacle-notif-limprovidence-du-jeudi-24-oct-2024-au-samedi-17-mai-2025" target="_blank">
+        <img src="https://www.jds.fr/medias/image/0-81541900-1704468858-277873-1200-630.jpg" alt="Image 1">
+    </a>
+</div>
+
+<div class="image-container">
+    <a href="https://lemimozart.fr/fr" target="_blank">
+        <img src="https://www.reserverunbar.fr/images/etab/1684775956_646ba4140fc80.webp" alt="Image 2">
+    </a>
+</div>
+
+</body>
+</html>
